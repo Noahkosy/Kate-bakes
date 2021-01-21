@@ -1,0 +1,461 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Chocolate Chip",
+      "type": "Cookies",
+      "sizes": [
+        "Box of Eight"
+      ],
+      "qty": 0,
+      "prices": [
+        "12.00"
+      ],
+      "cost": 0,
+      "season": "Year round",
+      "description": "Vanilla cookie with chocolate chips and a secret ingredient that makes them extra soft.",
+      "image": "https://res.cloudinary.com/dsiitt52r/image/upload/v1610980216/Kate%20Bake%27s/DSC_0012_2x_bsuow7.png"
+    },
+    {
+      "id": 2,
+      "name": "Snickerdoodles",
+      "type": "Cookies",
+      "sizes": [
+        "Box of Eight"
+      ],
+      "qty": 0,
+      "prices": [
+        "12.00"
+      ],
+      "cost": 0,
+      "season": "Year round",
+      "description": "A tangy vanilla cookie with a cinnamon sugar coating.",
+      "image": "https://res.cloudinary.com/dsiitt52r/image/upload/v1610981901/Kate%20Bake%27s/DSC_0015_wbyvas.png"
+    },
+    {
+      "id": 3,
+      "name": "Cheese",
+      "type": "Bread",
+      "sizes": [
+        "1 Loaf"
+      ],
+      "qty": 0,
+      "prices": [
+        "5.00"
+      ],
+      "cost": 0,
+      "season": "Year round",
+      "description": "Kate Bakes cheese bread is a yeast based bread made with shredded cheddar cheese. Baked in a bread pot that gives the bread a fluffy soft texture.",
+      "image":"https://res.cloudinary.com/dsiitt52r/image/upload/v1610981977/Kate%20Bake%27s/DSC_0945_oknnwx.png"
+    },
+    {
+      "id": 4,
+      "name": "Oatmeal",
+      "type": "Bread",
+      "sizes": [
+        "1 Loaf"
+      ],
+      "qty": 0,
+      "prices": [
+        "5.00"
+      ],
+      "cost": 0,
+      "season": "Year round",
+      "description": "A fluffy yeast bread made with ground oatmeal and honey. Made in a bread pot. Great for sandwiches!!",
+      "image": "https://res.cloudinary.com/dsiitt52r/image/upload/v1610981966/Kate%20Bake%27s/DSC_0027_d8ffxg.png"
+    },
+    {
+      "id": 5,
+      "name": "Lemon Blueberry",
+      "type": "Cupcake",
+      "sizes": [
+        "Single",
+        "Half-Dozen",
+        "Dozen"
+      ],
+      "qty": 0,
+      "prices": [
+        "2.00",
+        "12.00",
+        "24.00"
+      ],
+      "cost": 0,
+      "season": "Year round",
+      "description": "A soft lemon cupcake with fresh lemon juice and blueberries mixed in. Cupcake is topped with lemon buttercream frosting and blueberry garnish.",
+      "image":"https://res.cloudinary.com/dsiitt52r/image/upload/v1610981952/Kate%20Bake%27s/DSC_0019_pg2sqj.png"
+    },
+    {
+      "id": 6,
+      "name": "Chocolate Bourbon",
+      "type": "Cupcake",
+      "sizes": [
+        "Single",
+        "Half-Dozen",
+        "Dozen"
+      ],
+      "qty": 0,
+      "prices": [
+        "2.00",
+        "12.00",
+        "24.00"
+      ],
+      "cost": 0,
+      "season": "Year round",
+      "description": "Bourbon and chocolate mixed together to give this cupcake a dense texture and a boozy taste. Chocolate bourbon buttercream tops this cupcake.",
+      "image":"https://res.cloudinary.com/dsiitt52r/image/upload/v1610981984/Kate%20Bake%27s/DSC_1068_e2nys3.png"
+    },
+    {
+      "id": 7,
+      "name": "Lemon Blueberry",
+      "type": "Scone",
+      "sizes": [
+        "Half-Dozen",
+        "Dozen"
+      ],
+      "qty": 0,
+      "prices": [
+        "12.00",
+        "24.00"
+      ],
+      "cost": 0,
+      "season": "Year round",
+      "description": "A traditional scone with flavors of fresh lemon and blueberries mixed in and topped with a glaze.",
+      "image":"https://res.cloudinary.com/dsiitt52r/image/upload/v1610981958/Kate%20Bake%27s/DSC_0022_r1rq0z.png"
+    },
+    {
+      "id": 8,
+      "name": "Cinnamon Chip",
+      "type": "Scone",
+      "sizes": [
+        "Half-Dozen",
+        "Dozen"
+      ],
+      "qty": 0,
+      "prices": [
+        "12.00",
+        "24.00"
+      ],
+      "cost": 0,
+      "season": "Year round",
+      "description": "A scone mixed with cinnamon chips topped with a light powdered sugar glaze. So much better than a cinnamon roll!",
+      "image":"https://res.cloudinary.com/dsiitt52r/image/upload/v1610981991/Kate%20Bake%27s/DSC_1084_urxz0w.png"
+    },
+    {
+      "id": 9,
+      "name": "Kieflie",
+      "type": "Cookies",
+      "sizes": [
+        "Half-Dozen",
+        "Dozen"
+      ],
+      "qty": 0,
+      "prices": [
+        "8.00",
+        "15.00"
+      ],
+      "cost": 0,
+      "season": "Christmas",
+      "description": "A crescent shaped 'roll cookie' filled with a walnut and egg white mixture. Finished with a roll in powdered sugar."
+    },
+    {
+      "id": 10,
+      "name": "Decorated Sugar",
+      "type": "Cookies",
+      "sizes": [
+        "Half-Dozen",
+        "Dozen"
+      ],
+      "qty": 0,
+      "prices": [
+        "13.00",
+        "25.00"
+      ],
+      "cost": 0,
+      "season": "Christmas",
+      "description": "Traditional sugar cookie cut outs decorated with royal icing. Desgins can range from snowflakes to snowmen to helper elves."
+    },
+    {
+      "id": 11,
+      "name": "Gingerbread",
+      "type": "Cookies",
+      "sizes": [
+        "Half-Dozen",
+        "Dozen"
+      ],
+      "qty": 0,
+      "prices": [
+        "13.00",
+        "25.00"
+      ],
+      "cost": 0,
+      "season": "Christmas",
+      "description": "Cinnamon and ginger incorporated into a short bread cookie. Decorated in Royal icing."
+    },
+    {
+      "id": 12,
+      "name": "Kolach",
+      "type": "Cookies",
+      "sizes": [
+        "Half-Dozen",
+        "Dozen"
+      ],
+      "qty": 0,
+      "prices": [
+        "7.00",
+        "12.00"
+      ],
+      "cost": 0,
+      "season": "Christmas",
+      "description": "A traditional hungarian pastry. Similar to a flat rolled croissant filled with apricot jam. Also known as baby Jesus in a blanket cookie."
+    },
+    {
+      "id": 13,
+      "name": "Butter Spritz",
+      "type": "Cookies",
+      "sizes": [
+        "Dozen"
+      ],
+      "qty": 0,
+      "prices": [
+        "5.00"
+      ],
+      "cost": 0,
+      "season": "Christmas",
+      "description": "A small cookie with a rich buttery flavor and a hint of vanilla. Cookies are made in a cookie press and come in a bag of a dozen."
+    },
+    {
+      "id": 14,
+      "name": "Peppermint Bark",
+      "type": "Cookies",
+      "sizes": [
+        "Half-Dozen",
+        "Dozen"
+      ],
+      "qty": 0,
+      "prices": [
+        "7.00",
+        "12.00"
+      ],
+      "cost": 0,
+      "season": "Christmas",
+      "description": "A thin candy made with dark chocolate and chunks of candy cane. Served broken up in pieces of 'bark' similar to a peanut brittle."
+    },
+    {
+      "id": 15,
+      "name": "Cranberry Delight Bars",
+      "type": "Cookies",
+      "sizes": [
+        "Half-Dozen",
+        "Dozen"
+      ],
+      "qty": 0,
+      "prices": [
+        "12.00",
+        "24.00"
+      ],
+      "cost": 0,
+      "season": "Christmas",
+      "description": "A vanilla blondie with dried cranberries, white chocolate chips with a cream cheese frosting."
+    },
+    {
+      "id": 16,
+      "name": "Pizzelles",
+      "type": "Cookies",
+      "sizes": [
+        "Dozen"
+      ],
+      "qty": 0,
+      "prices": [
+        "5.00"
+      ],
+      "cost": 0,
+      "season": "Christmas",
+      "description": "A thin Italian cookie with hints of orange flavoring made in a special decorative waffle iron. Perfect for dunking in hot chocolate or coffee."
+    },
+    {
+      "id": 17,
+      "name": "Fruit Cake",
+      "type": "Cupcake",
+      "sizes": [
+        "Single",
+        "Half-Dozen",
+        "Dozen"
+      ],
+      "qty": 0,
+      "prices": [
+        "2.00",
+        "12.00",
+        "24.00"
+      ],
+      "cost": 0,
+      "season": "Christmas",
+      "description": "Candied fruit mixed in a spiced cake cupcake."
+    },
+    {
+      "id": 18,
+      "name": "Hot Chocolate",
+      "type": "Cupcake",
+      "sizes": [
+        "Single",
+        "Half-Dozen",
+        "Dozen"
+      ],
+      "qty": 0,
+      "prices": [
+        "2.00",
+        "12.00",
+        "24.00"
+      ],
+      "cost": 0,
+      "season": "Christmas",
+      "description": "Chocolate Cupcake made with homemade hot chocolate. Topped with a whipped buttercream frosting."
+    },
+    {
+      "id": 19,
+      "name": "Nut Roll Wreath",
+      "type": "Bread",
+      "sizes": [
+        "1 Roll"
+      ],
+      "qty": 0,
+      "prices": [
+        "15.00"
+      ],
+      "cost": 0,
+      "season": "Christmas",
+      "description": "Traditional sweet bread rolled in a vanilla nut filling, shaped as a wreath for the season."
+    },
+    {
+      "id": 20,
+      "name": "Orange Cranberry Cinnamon",
+      "type": "Scone",
+      "sizes": [
+        "Half-Dozen",
+        "Dozen"
+      ],
+      "qty": 0,
+      "prices": [
+        "12.00",
+        "24.00"
+      ],
+      "cost": 0,
+      "season": "Christmas",
+      "description": "Traditional scone flavored with orange zest, craisins and an orange glaze."
+    },
+    {
+      "id": 21,
+      "name": "Chocolate Peanut Butter Blondies",
+      "type": "Brownie",
+      "sizes": [
+        "Half-Dozen",
+        "Dozen"
+      ],
+      "qty": 0,
+      "prices": [
+        "15.00",
+        "24.00"
+      ],
+      "cost": 0,
+      "season": "Gluten Free",
+      "description": "A vanilla brownie flavored with peanut butter, peanuts and chocolate chips."
+    },
+    {
+      "id": 22,
+      "name": "Butter Spritz",
+      "type": "Cookie",
+      "sizes": [
+        "Half-Dozen",
+        "Dozen"
+      ],
+      "qty": 0,
+      "prices": [
+        "12.00",
+        "24.00"
+      ],
+      "cost": 0,
+      "season": "Gluten Free",
+      "description": "A small buttery cookie flavored with hints of vanilla. Made in a unique cookie press."
+    },
+    {
+      "id": 23,
+      "name": "Chocolate",
+      "type": "Cake Balls",
+      "sizes": [
+        "Half-Dozen",
+        "Dozen"
+      ],
+      "qty": 0,
+      "prices": [
+        "12.00",
+        "24.00"
+      ],
+      "cost": 0,
+      "season": "Gluten Free",
+      "description": "A chocolate cake with chopped walnuts, coffee liqueur and rolled in powdered sugar."
+    },
+    {
+      "id": 24,
+      "name": "Box of Cookies",
+      "type": "Specials",
+      "sizes": [
+        "Choice of 4 types of cookies (16 total)"
+      ],
+      "qty": 0,
+      "prices": [
+        "20.00"
+      ],
+      "cost": 0,
+      "season": "Christmas",
+      "description": "You pick! Choose up to four different types of cookies from our Christmas cookies selection. Four of each cookie, 16 in total."
+    },
+    {
+      "id": 25,
+      "name": "Christmas Tea in a box",
+      "type": "Specials",
+      "sizes": [
+        "One Box"
+      ],
+      "qty": 0,
+      "prices": [
+        "30.00"
+      ],
+      "cost": 0,
+      "season": "Christmas",
+      "description": "Half a dozen of two different cookies, a teacup, holiday tea, and a small jar of lemon curd. A perfect care package for the holidays!"
+    },
+    {
+      "id": 26,
+      "name": "Bake o gram",
+      "type": "Specials",
+      "sizes": [
+        "Once Box"
+      ],
+      "qty": 0,
+      "prices": [
+        "30.00"
+      ],
+      "cost": 0,
+      "season": "Christmas",
+      "description": "2 different types of cookies and a mug. Served with a jar of hot chocolate mix."
+    }
+
+  ],
+  
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

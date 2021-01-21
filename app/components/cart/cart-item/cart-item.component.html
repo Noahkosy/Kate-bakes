@@ -1,0 +1,15 @@
+<div>
+    <div>
+        <span>{{ cartItem.size }} </span> 
+        <span>{{ cartItem.productname }}</span> x 
+        <span> {{ cartItem.qty }}</span> 
+        <div class="container">
+            <p><strong class="float-end">{{(+cartItem.qty * cartItem.cost) |currency}}</strong></p>
+        </div> 
+    </div>
+</div>
+
+
+    <button><small>Remove Item</small></button>
+
+

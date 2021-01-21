@@ -1,0 +1,47 @@
+<!-- Navbar -->
+
+<header>
+  <nav class="navbar navbar-main border-bottom topNav">
+    <div class="container">  
+      <div class="mt-4 mr-4">
+        <h1>Kate Bake's <i class="fas fa-cookie-bite"></i></h1>
+        <h3><i class="rAccent">Love,</i> One Bake at a Time...</h3>
+      </div>
+      <div class="align-content-end">
+        <ul class="list-inline middle">
+          <li class= "list-inline-item m-3" ><a class="text-reset" routerLink="/productlist">Home</a></li>
+          <li class= "list-inline-item m-3" ><a class="text-reset" routerLink="/seasonal">Specials</a></li>
+          <li class= "list-inline-item m-3" ><a class="text-reset" routerLink="/aboutme">About Me</a></li>
+          <li class= "list-inline-item m-3" ><a class="text-reset" routerLink="/social">Social</a></li>
+          <li class= "list-inline-item m-3" ><button class="cButton" routerLink="/cart">Cart<i class="fas fa-shopping-cart cIcon"></i></button></li>
+        </ul>
+      </div>
+    </div> 
+  </nav>
+</header>
+
+<router-outlet></router-outlet>
+
+<!-- Footer -->
+<footer class="footer bg-dark py-4" id="sticky-footer">
+    <div class="container grid grid-3 text-center">
+        <div>
+            <h1>Kate Bake's</h1>
+            <p>Copyright &copy; 2021</p>
+        </div>
+        <nav>
+            <ul class="list-inline">
+                <li class="list-inline-item m-3"><a class="text-reset" routerLink= "/productlist">Home</a></li>
+                <li class="list-inline-item m-3"><a class="text-reset" routerLink= "/seasonal">Specials</a></li>
+                <li class="list-inline-item m-3"><a class="text-reset" routerLink= "/aboutme">About Me</a></li>
+                <li class="list-inline-item m-3"><a class="text-reset" routerLink= "/social">Social</a></li>
+            </ul>
+        </nav>
+        <div class="social">
+            <a href="https://www.pinterest.com/katiek0186/tried/" class="m-3 text-reset" ><i class="fab fa-pinterest fa-2x"></i></a>
+            <a href="https://www.facebook.com/katie.l.kosak" class="m-3 text-reset" ><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://www.instagram.com/katebakes1970/" class="m-3 text-reset" ><i class="fab fa-instagram fa-2x"></i></a> 
+        </div>
+        <p class="mt-4">Site built and designed by: Noah Kosak</p>
+    </div>
+</footer>

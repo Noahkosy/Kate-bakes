@@ -1,0 +1,27 @@
+.cartTitle{
+    font-size: 40px;
+    color: black;
+}
+
+.cartBox {
+    padding: 5em 5em 5em 5em;
+    border-color:#90d3d1;
+    border-width: 10px;
+    margin-bottom: 10em;
+}
+
+.cartButton {
+    color:#e6433f;
+    background: none;
+    border: 3px solid #e6433f;
+    border-radius: 5px;
+    cursor: pointer;
+    line-height: 1.5;
+    font: 700 1rem 'Raleway', sans-serif;
+    padding: .5em 1em;
+    letter-spacing: 0.05rem;
+}
+
+p {
+    font-size: 1.2rem;
+}

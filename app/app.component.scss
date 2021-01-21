@@ -1,0 +1,57 @@
+nav {
+    color:ivory;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+footer {
+    color: ivory;
+}
+
+//--Top nav styling
+.topNav{
+    background-color:#90d3d1; 
+   
+}
+
+.rAccent{
+    color:#e6433f;
+}
+
+
+//--Cart Button Styling
+.cButton {
+    font-size: 21px;
+    font-weight: bold;
+    color:#e6433f ;
+    border: white;
+    background-color: ivory;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin-left: 30px;
+    transition: transform 0.2s ease-in;
+
+}
+
+.cButton:hover{
+    transform: scale(1.1);
+}
+
+.cIcon {
+    margin-left: 7px;
+}
+
+//--footer styling
+.cfooter {
+    text-align: center;
+}

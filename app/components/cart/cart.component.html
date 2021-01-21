@@ -1,0 +1,50 @@
+
+<div class="container">
+    <div class="mt-5 mb-5">
+        <h1 class="text-center cartTitle">Your Cart</h1>
+        <hr>
+        <p>Thank you for choosing to shop with Kate Bake's! This page is intended to be an estimate for you, the customer, to 
+            see how much your order will cost with sales tax added in. <strong>Note: Because I am a one Woman operation I can only take so
+            many orders at a time. For this reason when you add your email and hit submit below I will review your order and get 
+            back to you with an estimate within 24hrs.</strong>
+        </p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="mt-5 cartBox card shadow-lg">   
+        <div *ngIf="!cartItems">
+            <p>Your Cart is Empty!!</p>
+        </div>
+        <div class="mb-3"> 
+            <div class=" container mt-3 mb-3" *ngFor="let item of cartItems | keyvalue">
+                <app-cart-item [cartItem]='item.value'></app-cart-item>
+            </div>
+
+            <hr>
+              
+            <div class="container">
+                <p>Indiana Sales Tax: <span class="float-end">{{salesTax | currency}}</span> 
+            </div>
+            
+            <div class="container">
+                <div class="float-end">
+                    <p><strong>Total :</strong> {{cartTotal | currency}}</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <button class="cartButton" (click)="clearCartHandler()">Clear Cart</button>
+                </div>
+            </div>
+        </div>
+
+        
+        <app-contact-form></app-contact-form>
+        
+
+    </div>
+</div>
